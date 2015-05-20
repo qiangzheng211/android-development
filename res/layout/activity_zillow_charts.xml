@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.homework9.ChartsFragment" >
+    
+    <TextSwitcher
+       android:layout_marginTop="40dp"
+       android:id="@+id/textSwitcher"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textSwitcher"
+       android:gravity="center"
+       android:textSize="15sp" />
+
+    <ImageSwitcher
+      android:id="@+id/imageSwitcher"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textView"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true" >
+    </ImageSwitcher>
+    
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="109dp"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_below="@+id/imageSwitcher"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageSwitcher"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="84dp"
+        android:text="Previous" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="© Zillow, Inc., 2006-2014" 
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="" 
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="" 
+        android:gravity="center" />
+  
+</RelativeLayout> 

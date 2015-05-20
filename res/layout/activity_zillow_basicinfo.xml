@@ -1,0 +1,387 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="530dp" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="See more details on Zillow:"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/shareButton"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/facebook_button"
+                    android:gravity="right"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Property Type"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/propertytype"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Year Built"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/yearbuilt"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Lot Size"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/lotsize"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Finished Area"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/finiarea"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Bathrooms"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/bathrooms"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Bedrooms"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/bedrooms"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Tax Assessment Year"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/taxyear"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Tax Assessment"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tax"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Last Sold Price"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Last Sold Date"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:id="@+id/zestimatedate"
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Zestimate ® Property Estimate \n as of "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/zestimate"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="30 Days Overall Change"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/overallchange"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="All Time property Range"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/range1"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rzestimatedate"
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Rent Zestimate ® Valuation as of \n"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/rzestimate"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow android:background="#e8e8ef" >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="30 Days Rent Change"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/rentchange"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="All Time Rent Range"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/range2"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#000000" />
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp" />
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView1"
+        android:gravity="center"
+        android:text="© Zillow, Inc., 2006-2014" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:gravity="center" />
+
+</RelativeLayout>
