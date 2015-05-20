@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Homework9</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">360374894144976</string>
+
+    <string-array name="states_array">
+        <item>  Choose State</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DC</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>IA</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>MA</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MO</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>NE</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NV</item>
+        <item>NY</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VA</item>
+        <item>VT</item>
+        <item>WA</item>
+        <item>WI</item>
+        <item>WV</item>
+        <item>WY</item>
+    </string-array>
+
+    <string name="title_activity_zillow_result">ZillowResultActivity</string>
+    <string name="gjffg">GJFFG</string>
+    <string name="title_activity_slidingtabs">Slidingtabs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_basic">BasicActivity</string>
+
+</resources>
